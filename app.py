@@ -6,8 +6,6 @@ from typing import Optional
 import random, os
 from PIL import Image
 
-print("hello from the other side")
-
 app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
